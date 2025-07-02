@@ -135,3 +135,54 @@
 #define IT_ELLP RA(IT_COMMA)    // …
 #define IT_BULT RA(IT_DOT)      // •
 #define IT_NDSH RA(IT_MINUS)    // –
+
+// -------------------------
+// Shift + AltGr (S(RA(...))) symbols
+// -------------------------
+#define IT_DLSI S(RA(IT_BSLS))   // ı
+#define IT_RDAQ S(RA(IT_N1))     // »
+#define IT_RDQU S(RA(IT_N2))     // ”
+#define IT_RSQU S(RA(IT_N3))     // ’
+#define IT_CENT S(RA(IT_N4))     // ¢
+#define IT_PERM S(RA(IT_N5))     // ‰
+#define IT_RSAQ S(RA(IT_N6))     // ›
+#define IT_FRSL S(RA(IT_N7))     // ⁄
+#define IT_APPL S(RA(IT_N8))     //  (Apple logo)
+#define IT_AEQL S(RA(IT_N0))     // ≈
+#define IT_IQUE S(RA(IT_SQT))    // ¿
+#define IT_PLMN S(RA(IT_IGRV))   // ±
+
+#define IT_SLQU S(RA(IT_Q))      // ‚
+#define IT_CAGR S(RA(IT_W))      // À
+#define IT_CEGR S(RA(IT_E))      // È
+#define IT_CIGR S(RA(IT_R))      // Ì
+#define IT_COGR S(RA(IT_T))      // Ò
+#define IT_CUGR S(RA(IT_U))      // Ù
+
+#define IT_NARP S(RA(IT_P))      // ∏
+#define IT_LCBR S(RA(IT_EGRV))   // {
+#define IT_RCBR S(RA(IT_PLUS))   // }
+
+#define IT_MACR S(RA(IT_S))      // ¯
+#define IT_BREV S(RA(IT_D))      // ˘
+#define IT_DOTA S(RA(IT_F))      // ˙
+#define IT_RNGA S(RA(IT_G))      // ˚
+#define IT_CEDL S(RA(IT_H))      // ¸
+#define IT_DACU S(RA(IT_J))      // ˝
+#define IT_OGON S(RA(IT_K))      // ˛
+#define IT_CARN S(RA(IT_L))      // ˇ
+
+#define IT_CCCE S(RA(IT_OGRV))   // Ç
+#define IT_LOZN S(RA(IT_UGRV))   // ◊
+
+#define IT_GTEQ S(RA(IT_LABK))   // ≥
+#define IT_DDAG S(RA(IT_X))      // ‡
+
+#define IT_CAAC S(RA(IT_C))      // Á
+#define IT_CEAC S(RA(IT_V))      // É
+#define IT_CIAC S(RA(IT_B))      // Í
+#define IT_COAC S(RA(IT_N))      // Ó
+#define IT_CUAC S(RA(IT_M))      // Ú
+
+#define IT_MDDT S(RA(IT_DOT))    // ·
+#define IT_MDSH S(RA(IT_MINUS))  // —
