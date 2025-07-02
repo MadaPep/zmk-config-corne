@@ -13,7 +13,7 @@
     combos {
         compatible = "zmk,combos";
 
-        mod3 {
+        mod_bt {
             bindings = <&mo 3>;
             key-positions = <37 40>;
             layers = <5>;
