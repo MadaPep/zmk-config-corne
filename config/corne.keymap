@@ -38,10 +38,10 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC     &kp Q       &kp W           &kp E        &kp R             &kp T        &kp Y      &kp U              &kp I        &kp O            &kp P               &kp BACKSPACE
-&kp TAB     &HM LGUI A  &HM LEFT_ALT S  &HM LCTRL D  &HM LEFT_SHIFT F  &kp G        &kp H      &HM RIGHT_SHIFT J  &HM RCTRL K  &HM RIGHT_ALT L  &HM RIGHT_WIN SEMI  &kp SQT
-&kp LSHIFT  &kp Z       &kp X           &kp C        &kp V             &kp B        &kp N      &kp M              &kp COMMA    &kp DOT          &kp FSLH            &kp PIPE
-                                        &kp LC(C)    &mo 2             &kp ENTER    &kp SPACE  &mo 1              &kp LC(V)
+&kp ESC   &kp Q       &kp W           &kp E        &kp R             &kp T        &kp Y      &kp U              &kp I        &kp O            &kp P               &kp BACKSPACE
+&kp TAB   &HM LGUI A  &HM LEFT_ALT S  &HM LCTRL D  &HM LEFT_SHIFT F  &kp G        &kp H      &HM RIGHT_SHIFT J  &HM RCTRL K  &HM RIGHT_ALT L  &HM RIGHT_WIN SEMI  &kp SQT
+&kp CAPS  &kp Z       &kp X           &kp C        &kp V             &kp B        &kp N      &kp M              &kp COMMA    &kp DOT          &kp FSLH            &kp PIPE
+                                      &kp LC(C)    &mo 2             &kp ENTER    &kp SPACE  &mo 1              &kp LC(V)
             >;
         };
 
@@ -70,10 +70,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp ESC         &kp EXCL     &kp AT       &kp HASH     &kp DLLR     &kp PRCNT      &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
-&kp TAB         &kp IT_AGRV  &kp IT_EGRV  &kp IT_IGRV  &kp IT_OGRV  &kp IT_UGRV    &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LEFT_SHIFT  &trans       &trans       &trans       &trans       &trans         &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
-                                          &kp LGUI     &trans       &kp SPACE      &kp SPACE  &mo 3      &kp RALT
+&kp ESC   &kp EXCL     &kp AT       &kp HASH     &kp DLLR     &kp PRCNT      &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
+&kp TAB   &kp IT_AGRV  &kp IT_EGRV  &kp IT_IGRV  &kp IT_OGRV  &kp IT_UGRV    &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
+&kp CAPS  &trans       &trans       &trans       &trans       &trans         &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
+                                    &kp LGUI     &trans       &kp SPACE      &kp SPACE  &mo 3      &kp RALT
             >;
         };
 
