@@ -23,6 +23,11 @@
             quick-tap-ms = <175>;
             flavor = "tap-preferred";
             hold-trigger-on-release;
+        }; 
+        unicode_it: unicode_it {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <1>;
+            label = "Unicode IT";
         };
     };
 
@@ -71,7 +76,7 @@
             display-name = "Raise";
             bindings = <
 &kp ESC   &kp EXCL        &kp AT          &kp HASH        &kp DLLR        &kp PRCNT         &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
-&kp TAB   &kp IT_A_GRAVE  &kp IT_E_GRAVE  &kp IT_I_GRAVE  &kp IT_O_GRAVE  &kp IT_U_GRAVE    &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
+&kp TAB   &unicode_it 0x00E0     &unicode_it 0x00E8     &unicode_it 0x00EC     &unicode_it 0x00F2     &unicode_it 0x00F9       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
 &kp CAPS  &trans          &trans          &trans          &trans          &trans            &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
                                           &kp LGUI        &trans          &kp SPACE         &kp SPACE  &mo 3      &kp RALT
             >;
