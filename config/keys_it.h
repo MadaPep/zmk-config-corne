@@ -32,7 +32,7 @@
 #define IT_I I
 #define IT_O O
 #define IT_P P
-#define IT_EGRV LBKT      // è
+#define IT_E_GRAVE LBKT      // è
 #define IT_PLUS RBKT      // +
 #define IT_A A
 #define IT_S S
@@ -43,9 +43,9 @@
 #define IT_J J
 #define IT_K K
 #define IT_L L
-#define IT_OGRV SEMI      // ò
-#define IT_AGRV SQT       // à
-#define IT_UGRV NUHS      // ù
+#define IT_O_GRAVE SEMI      // ò
+#define IT_A_GRAVE SQT       // à
+#define IT_U_GRAVE NUHS      // ù
 #define IT_LABK NUBS      // <
 #define IT_Z Z
 #define IT_X X
@@ -73,11 +73,11 @@
 #define IT_RPRN LS(IT_N9)       // )
 #define IT_EQL  LS(IT_N0)       // =
 #define IT_CIRC LS(IT_IGRV)     // ^
-#define IT_EACU LS(IT_EGRV)     // é
+#define IT_EACU LS(IT_E_GRAVE)     // é
 #define IT_ASTR LS(IT_PLUS)     // *
-#define IT_LCCE LS(IT_OGRV)     // ç
-#define IT_DEG  LS(IT_AGRV)     // °
-#define IT_SECT LS(IT_UGRV)     // §
+#define IT_LCCE LS(IT_O_GRAVE)     // ç
+#define IT_DEG  LS(IT_A_GRAVE)     // °
+#define IT_SECT LS(IT_U_GRAVE)     // §
 #define IT_RABK LS(IT_LABK)     // >
 #define IT_SCLN LS(IT_COMMA)    // ;
 #define IT_COLN LS(IT_DOT)      // :
@@ -110,7 +110,7 @@
 #define IT_OE   RA(IT_I)        // Œ
 #define IT_OSTR RA(IT_O)        // Ø
 #define IT_PI   RA(IT_P)        // π
-#define IT_LBRC RA(IT_EGRV)     // [
+#define IT_LBRC RA(IT_E_GRAVE)     // [
 #define IT_RBRC RA(IT_PLUS)     // ]
 #define IT_ARNG RA(IT_A)        // Å
 #define IT_SS   RA(IT_S)        // ß
@@ -121,9 +121,9 @@
 #define IT_FORD RA(IT_J)        // ª
 #define IT_MORD RA(IT_K)        // º
 #define IT_NOT  RA(IT_L)        // ¬
-#define IT_AT   RA(IT_OGRV)     // @
-#define IT_HASH RA(IT_AGRV)     // #
-#define IT_PILC RA(IT_UGRV)     // ¶
+#define IT_AT   RA(IT_O_GRAVE)     // @
+#define IT_HASH RA(IT_A_GRAVE)     // #
+#define IT_PILC RA(IT_U_GRAVE)     // ¶
 #define IT_LTEQ RA(IT_LABK)     // ≤
 #define IT_NARS RA(IT_Z)        // ∑
 #define IT_DAGG RA(IT_X)        // †
@@ -160,7 +160,7 @@
 #define IT_CUGR S(RA(IT_U))      // Ù
 
 #define IT_NARP S(RA(IT_P))      // ∏
-#define IT_LCBR S(RA(IT_EGRV))   // {
+#define IT_LCBR S(RA(IT_E_GRAVE))   // {
 #define IT_RCBR S(RA(IT_PLUS))   // }
 
 #define IT_MACR S(RA(IT_S))      // ¯
@@ -172,8 +172,8 @@
 #define IT_OGON S(RA(IT_K))      // ˛
 #define IT_CARN S(RA(IT_L))      // ˇ
 
-#define IT_CCCE S(RA(IT_OGRV))   // Ç
-#define IT_LOZN S(RA(IT_UGRV))   // ◊
+#define IT_CCCE S(RA(IT_O_GRAVE))   // Ç
+#define IT_LOZN S(RA(IT_U_GRAVE))   // ◊
 
 #define IT_GTEQ S(RA(IT_LABK))   // ≥
 #define IT_DDAG S(RA(IT_X))      // ‡
