@@ -57,7 +57,7 @@
 &trans  &kp N1       &kp N2           &kp N3         &kp N4          &kp N5       &kp N6     &kp N7          &kp N8        &kp N9          &kp N0           &kp BSPC
 &kp F1  &HM LGUI F2  &HM LEFT_ALT F9  &HM LCTRL F10  &HM LSHIFT F11  &kp F12      &kp LEFT   &HM RSHFT DOWN  &HM RCTRL UP  &HM RALT RIGHT  &HM RGUI DOLLAR  &kp IT_EURO
 &kp F3  &kp F4       &kp F5           &kp F6         &kp F7          &kp F8       &trans     &trans          &trans        &trans          &trans           &trans
-                                      &trans         &mo 3           &kp SPACE    &kp SPACE  &trans          &trans
+                                      &trans         &mo 3           &kp ENTER    &kp SPACE  &trans          &trans
             >;
         };
 
@@ -70,10 +70,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp ESC   &kp EXCL     &kp AT       &kp HASH     &kp DLLR     &kp PRCNT        &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp DELETE
-&kp TAB   &kp IT_AGRV  &kp IT_EGRV  &kp IT_IGRV  &kp IT_OGRV  &kp IT_UGRV      &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
-&kp CAPS  &trans       &trans       &trans       &trans       &kp C_AL_LOCK    &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
-                                    &trans       &trans       &kp SPACE        &kp SPACE  &mo 3      &trans
+&kp ESC   &kp EXCL     &kp AT       &kp HASH     &kp DLLR     &kp PRCNT      &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp DELETE
+&kp TAB   &kp IT_AGRV  &kp IT_EGRV  &kp IT_IGRV  &kp IT_OGRV  &kp IT_UGRV    &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
+&kp CAPS  &trans       &trans       &trans       &trans       &kp LA(L)      &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
+                                    &trans       &trans       &kp ENTER      &kp SPACE  &mo 3      &trans
             >;
         };
 
