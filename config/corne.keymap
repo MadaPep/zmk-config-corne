@@ -26,6 +26,16 @@
         };
     };
 
+    macros {
+        delete_word: delete_word {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(BACKSPACE) &kp BACKSPACE &kp BACKSPACE>;
+            label = "DELETE_WORD";
+            tap-ms = <50>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
